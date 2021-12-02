@@ -1,0 +1,39 @@
+body {
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+header {
+    left: 50%; 
+    right: 50%;
+    margin-top: 5%;
+}
+
+section {
+    padding: 1rem 1rem 1rem 1rem;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: #546A7B;
+    border-color: #0D1F2D;
+    opacity: 90%;
+    border-style: solid;
+    border-radius: 5px;
+    width: 60%;
+    height: fit-content;
+    color: #FAE1DF;
+    z-index: 4;
+}
+
+img {
+    float: right;
+    width: auto;
+    height: 150px;
+    position:relative;
+    opacity: unset;
+}
+
+
